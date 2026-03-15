@@ -1,0 +1,178 @@
+# ---------------------------------------------------------
+# 1. Python / uv 特定
+# ---------------------------------------------------------
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+# uv, venv, virtualenv, conda, etc.
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# uv specific
+# uv.lock 通常建议提交，以便锁定依赖版本。
+# 但如果你希望它像 package-lock.json 一样被严格管理且不想让某些人修改，可以取消下面这行的注释。
+# 默认情况下，推荐提交 uv.lock，所以这里不忽略它。
+# uv.lock 
+
+# .python-version 通常建议提交，以锁定项目所需的 Python 版本
+# .python-version
+
+# ---------------------------------------------------------
+# 2. IDE / Editor
+# ---------------------------------------------------------
+
+# JetBrains IDEs (PyCharm, IntelliJ)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ---------------------------------------------------------
+# 3. Secrets & Logs (重要！)
+# ---------------------------------------------------------
+
+# Environment variables (通常包含 API Keys)
+.env
+.env.local
+.env.*.local
+
+# Log files
+*.log
+logs/
+
+# Private keys
+*.pem
+*.key
+*.crt
